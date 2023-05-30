@@ -13,7 +13,7 @@ const nextConfig = {
         destination: "https://js.hsadspixel.net/:match*",
       },
       {
-        source: "/proxy/googleads-g-doubleclick-net*",
+        source: "/proxy/googleads-g-doubleclick-net/:match*",
         destination: "https://googleads.g.doubleclick.net/:match*",
       },
       {
