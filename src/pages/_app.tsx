@@ -21,8 +21,8 @@ export default function App({ Component, pageProps }: AppProps) {
               type,
             });
             const proxyHostnameMap = {
-              "js.hs-analytics.net": "https://partytown-next-js.vercel.app",
-              "js.hsadspixel.net": "https://partytown-next-js.vercel.app",
+              "js.hs-analytics.net": "partytown-next-js.vercel.app",
+              "js.hsadspixel.net": "partytown-next-js.vercel.app",
             } as any;
             const proxyPathnameMap = {
               "js.hs-analytics.net": "/proxy/js-hs-analytics-net",
