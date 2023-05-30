@@ -13,6 +13,10 @@ const nextConfig = {
         destination: "https://js.hsadspixel.net/:match*",
       },
       {
+        source: "/proxy/googleads-g-doubleclick-net*",
+        destination: "https://googleads.g.doubleclick.net/:match*",
+      },
+      {
         source: "/cats",
         destination: "https://meowfacts.herokuapp.com",
       },

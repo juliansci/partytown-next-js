@@ -23,10 +23,13 @@ export default function App({ Component, pageProps }: AppProps) {
             const proxyHostnameMap = {
               "js.hs-analytics.net": "partytown-next-js.vercel.app",
               "js.hsadspixel.net": "partytown-next-js.vercel.app",
+              "googleads.g.doubleclick.net": "partytown-next-js.vercel.app",
             } as any;
             const proxyPathnameMap = {
               "js.hs-analytics.net": "/proxy/js-hs-analytics-net",
               "js.hsadspixel.net": "/proxy/js-hs-adspixel-net",
+              "googleads.g.doubleclick.net":
+                "/proxy/googleads-g-doubleclick-net",
             } as any;
             const newHostname = proxyHostnameMap[url.hostname] || url.hostname;
             const newPathname = proxyPathnameMap[url.hostname]
